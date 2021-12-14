@@ -21,7 +21,7 @@ For Windows
 
 $ git clone project-url
 
-For startproject
+Run the project
 
 $ python manage.py runserver
 

@@ -20,6 +20,7 @@ class DriverItemParamsView(ListCreateAPIView):
     serializer_class = DriverSerializer
 
     def get_queryset(self):
+        
         # qs = DriverModel.objects.all()
         # params = self.request.query_params
         # first_name = params.get('first_name', None)
